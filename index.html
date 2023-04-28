@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover, user-scalable=no,minimal-ui">
+		<title>Kylin Token official website</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<style type="text/css">
+
+			.logo {
+				width: 60%;
+			}
+
+			.img {
+				width: 100%;
+			}
+
+			.contact {
+				background-color: #ff5500;
+				color: white;
+				padding: 20px 26px;
+			}
+
+			.float_btn {
+				box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
+				color: #1e0035;
+				transition: all 0.3s;
+				background-color: #feccda;
+				display: flex;
+				flex-flow: column;
+				justify-content: center;
+				align-items: center;
+				z-index: 999;
+				border-radius: 35px;
+				cursor: pointer;
+				font-size: 18px;
+				font-weight: bold;
+			}
+
+			.float_btn_base1 {
+				position: fixed;
+				bottom: 12px;
+				left: 12px;
+				width: 70px;
+				height: 70px;
+			}
+
+			.float_btn_base2 {
+				position: fixed;
+				bottom: 12px;
+				right: 12px;
+				width: 70px;
+				height: 70px;
+			}
+
+			.titleImg {
+				width: 164px;
+			}
+			
+			.titleBox{
+				border-bottom: 3px solid #cfcfcf;
+			}
+			.title{
+				background-image: linear-gradient(to right, #4125c7 , #ff5500);
+				font-size: 1.8rem;
+				color: white;
+				padding:0rem 1.6rem;
+				letter-spacing: 1px;
+				font-weight: bold;
+				height: 3.6rem;
+				line-height: 3.6rem;
+				border-top-right-radius: 1.8rem;
+				/* border-bottom-right-radius: 1.8rem; */
+				/* border-bottom: 3px solid #cfcfcf; */
+			}
+			
+			.flex1{
+				flex: 0 0 40px;
+				font-size: 1.6rem;
+			}
+			.flex2{
+				flex: 0 0 70px;
+				font-size: 1.7rem;
+			}
+			.flex3{
+				flex: 1;
+				font-size: 1.3rem;
+			}
+			.headerBg{
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 300px;
+				height: 300px;
+				z-index: 0;
+			}
+		</style>
+
+		<script>
+			function toGuideView() {
+				location.href = "./guideList.html"
+			}
+
+			function toDZView() {
+				// location.href = "http://note.youdao.com/noteshare?id=58287212ad2a61a09165bed33e7fe7dd"
+				location.href = "./guide/detail06.html"
+			}
+		</script>
+	</head>
+	<body>
+		<div id="app" class="font-color-fff">
+			<div class="float_btn float_btn_base1" onclick="toGuideView()">
+				<div>新手</div>
+				<div class="mar-t-3">指南</div>
+			</div>
+			<div class="float_btn float_btn_base2" onclick="toDZView()">
+				<div>合约</div>
+				<div class="mar-t-3">定制</div>
+			</div>
+			<!-- <img class="img" src="./images/Kylin海报_01.jpg"> -->
+			<div class="box" style="background-image: url(./images/headerBg.png);background-repeat:no-repeat;background-size: 200px 200px;background-position: top right;">
+				<!-- <img class="headerBg" src="./images/headerBg.png"> -->
+				<div class="list">
+					<div style="font-size: 40px; margin-top: 20px;">麒麟通证</div>
+					<div style="font-size: 40px;margin-top: 30px;">官网介绍</div>
+					<div style="font-size: 24px;margin-top: 30px;">DeFi金融之持币推广挖矿</div>
+					<div style="font-size: 24px;margin-top: 20px;">加团队长等级分红新模式</div>
+				</div>
+			</div>
+			<!-- <div style="width: 100%;height: 1px;background-color: #00004f;"></div> -->
+			<div class="box flex flex-column mar-t-20">
+				<div class="flex align-center titleBox">
+					<span class="title">基础信息</span>
+				</div>
+				<div class="list">
+					<div class="item2 font-bold font-color-yellow">发行总量:</div>
+					<div class="item2">2000万枚Token，打入黑洞地址1000万枚Token，剩下1000万枚流入市场且不断销毁至1万枚。</div>
+					<div class="item2 font-bold font-color-yellow">抢购创世节点时间:</div>
+					<div class="item2">2022年6月26号~7月16号。</div>
+					<div class="item2 font-bold font-color-yellow">上线薄饼交易所时间:</div>
+					<div class="item2">7月17号。</div>
+					<div class="item2 font-bold font-color-yellow">销毁(黑洞)地址:</div>
+					<div class="item2">0x000000000000000000000000000000000000dEaD</div>
+					<div class="item2 font-bold font-color-yellow">合约地址:</div>
+					<div class="item2">0x20E73924C72e554cEc4B40f6F172d8bb0E4eAb73</div>
+				</div>
+			</div>
+			<div class="box flex flex-column mar-t-10">
+				<div class="flex align-center titleBox">
+					<span class="title">麒麟通证特色</span>
+				</div>
+				<div class="list">
+					<div class="item">1.社区自治，项目方手里不预留Token，不存在老鼠仓。</div>
+					<div class="item">2.DeFi金融智能合约新模式，拥有持币推广挖矿制度、团队等级分红制度、防砸制度、可谓DeFi界难得一见的创新网红。</div>
+					<div class="item">3.不仅有每笔交易销毁3%，还有团队长可通过销毁麒麟通证来定制属于自己的合约。在双销毁的加速燃烧下，保证麒麟通证拥有者的资产能稳步增值。</div>
+					<div class="item">4.有香港实体公司背后神秘支持，以及会有香港多个币圈财团分阶段入场，目标三年内涨到1万刀一枚。</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="flex align-center titleBox">
+					<span class="title">麒麟文化</span>
+				</div>
+				<div class="list">
+					<div class="item indent2em">
+						麒麟是古代神话中的一种神兽，寓意着人们对于美好生活的一种向往。麒麟是吉祥的代表，将其安放在家中，镇宅辟邪，增添家中吉祥的作用，不单令屋主事业顺畅，连带财运亦会好转。麒麟在风水中就像万金油，旺财，镇宅，化煞，旺人丁，求子，旺文等，各方面都可以使用。
+					</div>
+					<div class="item indent2em">
+						麒麟是某种意念的象征，某种意境的表现，某种力量的显示，并启发人们的想像，引导人们的精神去契合某种意念，进入一种特定的境界，来达成强大的共识。
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="flex align-center titleBox">
+					<span class="title">交易规则</span>
+				</div>
+				<div class="list">
+					<div class="item">手续费10%</div>
+					<div class="item">2%营销钱包(注1)</div>
+					<div class="item">2%推广奖励(注2)</div>
+					<div class="item">3%添加流动性分红</div>
+					<div class="item">3%燃烧销毁</div>
+					
+					<div class="item font-size-17 font-color-yellow">● 注1：营销钱包中的Token会自动分红给推广拉新的团队长，具体比例见下方的"团队长等级模块"。</div>
+					<div class="item2 font-size-17 font-color-yellow">● 注2：给好友发空投，即可绑定直推关系，A的一代直推每次交易奖励A空投奖励中70%的Token，A的二代直推每次交易奖励A空投奖励中30%的Token。比如：A推广了B，B推广了C，B买入或卖出10000个Token奖励A(10000×2%×70%=140)个Token。C买入或卖出10000个Token奖励A(10000×2%×30%=60)个Token。</div>
+					
+					<div class="item font-size-17 font-color-red font-bold mar-t-10">交易规则(防砸制度):</div>
+					<div class="item font-size-17 font-color-red">1.所有人每24小时最多卖出一次，且每次不得超过”可流通量/500“的Token数量。</div>
+					<div class="item font-size-17 font-color-red">2.上线去中心化交易所后的24小时内，为打散Token的分布，限制单次最大买入量为”可流通量/500“，24小时后解除单次买入量限制并丢弃合约的管理员权限。</div>
+					<div class="item font-size-17 font-color-yellow">
+						3.可流通量=发行总量-销毁数量。
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="flex align-center titleBox">
+					<span class="title">团队长等级</span>
+				</div>
+				<div class="list line15">
+					<div class="flex align-center font-size-15 text-left line15">
+						<div class="flex1">等级</div><div class="mar-l-15 flex2 font-size-15">空投数</div><div class="mar-l-15 flex-1">分红</div>
+					</div>
+					<div class="flex align-center font-size-14 text-left line15">
+						<div class="flex1">V1</div><div class="mar-l-15 flex2">3人</div><div class="mar-l-15 flex3">可流通量/100万+额外分红</div>
+					</div>
+					<div class="flex align-center font-size-14 text-left line15">
+						<div class="flex1">V2</div><div class="mar-l-15 flex2">50人</div><div class="mar-l-15 flex3">可流通量/10000+额外分红</div>
+					</div>
+					<div class="flex align-center font-size-14 text-left line15">
+						<div class="flex1">V3</div><div class="mar-l-15 flex2">200人</div><div class="mar-l-15 flex3">可流通量/1000+额外分红</div>
+					</div>
+					<div class="flex align-center font-size-14 text-left line15">
+						<div class="flex1">V4</div><div class="mar-l-15 flex2">500人</div><div class="mar-l-15 flex3">可流通量/500+额外分红</div>
+					</div>
+					<div class="flex align-center font-size-14 text-left line15">
+						<div class="flex1">V5</div><div class="mar-l-15 flex2">1000人</div><div class="mar-l-15 flex3">可流通量/200+额外分红</div>
+					</div>
+					<div class="flex align-center font-size-14 text-left line15">
+						<div class="flex1">V6</div><div class="mar-l-15 flex2">3000人</div><div class="mar-l-15 flex3">可流通量/100+额外分红</div>
+					</div>
+					<div class="item font-size-15 font-color-yellow">
+						● 注2：1.V1~V6等级的团队长每次空投都会获得额外分红。额外分红，即每次空投奖励营销地址中X%的Token。V1为1%，V2为2%，V3为3%......V6为6%。
+					</div>
+					<div class="item font-size-15 font-color-red">
+						● 注2：空投数量，固定为1个Token，才能绑定上下级关系。
+					</div>
+				</div>
+			</div>
+			<!-- <div class="box">
+				<div class="flex align-center titleBox">
+					<span class="title">矿机类型</span>
+				</div>
+				<div class="list line15">
+					<div class="flex align-center font-size-16 text-left line15">
+						<div class="flex1">类型</div><div class="mar-l-15 flex-1">售价</div><div class="mar-l-15 flex-1">产出</div>
+					</div>
+					<div class="flex align-center font-size-15 text-left line15">
+						<div class="flex1">mill_1_800</div><div class="mar-l-15 flex-1">可流通量/800</div><div class="mar-l-15 flex3">售价*104%</div>
+					</div>
+					<div class="flex align-center font-size-15 text-left line15">
+						<div class="flex1">mill_1_400</div><div class="mar-l-15 flex-1">可流通量/400</div><div class="mar-l-15 flex3">售价*105%</div>
+					</div>
+					<div class="flex align-center font-size-15 text-left line15">
+						<div class="flex1">mill_1_200</div><div class="mar-l-15 flex-1">可流通量/200</div><div class="mar-l-15 flex3">售价*106%</div>
+					</div>
+					<div class="flex align-center font-size-15 text-left line15">
+						<div class="flex1">mill_1_100</div><div class="mar-l-15 flex-1">可流通量/100</div><div class="mar-l-15 flex3">售价*107%</div>
+					</div>
+					<div class="item font-size-15 font-color-yellow">
+						注：
+					</div>
+					<div class="item font-size-15 font-color-yellow">
+						1.每人只能拥有一台矿机。	
+					</div>
+					<div class="item font-size-15 font-color-yellow">
+						2.矿机初始运行周期为30天，被挖数量每减少一半即减产，矿机运行周期会加30天，如：被挖数量初始值为200万个Token，当剩下100万个时，矿机运行周期自动变为60天，当剩下50万个时，矿机运行周期自动变为90天。
+					</div>
+				</div>
+			</div> -->
+			<div class="box">
+				<!-- <img class="titleImg" src="./images/05.png"> -->
+				<div class="flex align-center titleBox">
+					<span class="title">持币推广挖矿</span>
+				</div>
+				<div class="list">
+					<div class="item indent2em">
+						持有Token连续30天没卖出过后，每空投一人即可挖出持有Token数的千分之二的Token。
+						比如：张三持有1千枚Token，且连续30天没卖出过，第31天给李四发1个Token的空投，即可挖出2枚Token；
+						同理，第32天给N个人发放空投，即可挖出N*2枚Token......
+					</div>
+					<div class="item font-size-15 font-color-red">
+						● 注：空投数量，固定为1个Token，才能绑定上下级关系。
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="flex align-center titleBox">
+					<span class="title">玩法介绍</span>
+				</div>
+				<div class="list">
+					<div class="item">
+						一、抢购创世节点期间：
+					</div>
+					<div class="item">
+						1.可通过抢购创世节点来获得Token，然后预先开启推广绑定上下级关系。
+					</div>
+					<div class="item">
+						2.可通过邀请好友来抢购创世节点，每邀请一个奖励邀请者20U。
+					</div>
+					<div class="item">
+						二、在薄饼交易所开放交易期间：
+					</div>
+					<div class="item">
+						1.持币分红。
+					</div>
+					<div class="item">
+						2.推广分红。
+					</div>
+					<div class="item">
+						3.加流动性来获取分红。
+					</div>
+					<div class="item font-size-15 font-color-red">
+						<div class="item">
+							● 添加流动性的好处：
+						</div>
+						<div class="item">
+							1.若价格涨了，涨双倍。
+						</div>
+						<div class="item">
+							2.若价格跌了，可保值，让手中的币价值不跌。
+						</div>
+						<div class="item">
+							3.拿每次交易的3%分红。
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="flex align-center titleBox">
+					<span class="title">推广文案</span>
+				</div>
+				<div class="list">
+					<div class="item">
+						● Kylin Token最牛的地方:
+					</div>
+					<div class="item">
+						1.上线抢购创世节点的USDT全部加池子，且项目方不留一个币！
+					</div>
+					<div class="item">
+						2.每笔交易销毁3%，销毁力度大，持币增值快！
+					</div>
+					<div class="item">
+						3.销毁力度大，每笔交易销毁3%。
+					</div>
+					<div class="item">
+						4.DeFi金融智能合约新模式，可谓DeFi界难得一见的创新网红。
+					</div>
+					<div class="item">
+						5.有香港实体公司背后神秘支持，目标三年内涨到1万刀一枚。
+					</div>
+					<div class="item">
+						● Kylin Token机制解析:
+					</div>
+					<div class="item">
+						1.发行总量2000万枚，其中50%直接销毁，剩下的一半中20%用来挖矿，80%用来创建创世节点与加底池。
+					</div>
+					<div class="item">
+						2.交易滑点大于10%，2%营销钱包，2%推广奖励，3%添加流动性分红，3%燃烧销毁。
+					</div>
+					<div class="item">
+						● Kylin Token上涨逻辑:
+					</div>
+					<div class="item">
+						1.交易销毁力度大，持币增值有保障。
+					</div>
+					<div class="item">
+						2.防砸制度，价格稳定。
+					</div>
+					<div class="item">
+						3.持币推广挖矿模式。
+					</div>
+					<div class="item">
+						4.团队长想要发行属于自己的Token需销毁“可流通量/500”的Kylin Token，生态闭环，未来可期。
+					</div>
+					<div class="item">
+						● 官网：
+					</div>
+					<div class="item">
+						https://kylintoken.github.io/klt.github.io/
+					</div>
+					<div class="item">
+						● 合约地址：
+					</div>
+					<div class="item2">
+						0x20E73924C72e554cEc4B40f6F172d8bb0E4eAb73
+					</div>
+				</div>
+			</div>
+			<!-- <img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/948ebfaf-f71a-4e72-83f4-169649ad3aa6.jpg">
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-f025bed1-101b-4383-9c33-bbbeccec7177/10d88222-a0cf-4c28-85b3-0963b5f15639.jpg">
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/4efe09a5-1e9c-4dd2-9e37-3f2aa31ca41e.jpg">
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/297207e7-24b1-45b7-b4de-c63c78ba1e98.jpg"> -->
+			<div class="flex flex-column align-center justify-around">
+				<img style="width: 21.5rem;height: 21.5rem;" src="./images/logo.png">
+				<div class="font-color-fff font-size-20 mar-t-10">麒麟通证，欢迎您的加入！</div>
+				<div style="height: 100px; width:100%;"></div>
+			</div>
+		</div>
+	</body>
+</html>
